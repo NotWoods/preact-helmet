@@ -1,0 +1,25 @@
+{
+  "name": "@notwoods/preact-helmet",
+  "version": "6.1.0",
+  "type": "commonjs",
+  "main": "dist/helmet.cjs",
+  "module": "dist/helmet.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@types/react-helmet": "^6.1.1"
+  },
+  "peerDependencies": {
+    "preact": ">=10.5.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "preact": "^10.5.13",
+    "react-helmet": "^6.1.0",
+    "rollup": "^2.49.0"
+  }
+}
